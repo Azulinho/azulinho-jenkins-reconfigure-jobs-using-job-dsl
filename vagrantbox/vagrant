@@ -1,0 +1,9 @@
+#
+#	Ansible inventory file for: vagrant
+#
+
+[vagrant_servers]
+vagrantbox group=vagrant_servers deploy_env=vagrant
+
+[vagrant:children]
+vagrant_servers

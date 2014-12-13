@@ -1,0 +1,12 @@
+---
+- hosts: vagrant_servers
+  max_fail_percentage: 1
+  serial: 1
+  accelerate: false
+  sudo: true
+
+
+  roles:
+    - Azulinho.azulinho-google-dns
+    - this-github-role
+

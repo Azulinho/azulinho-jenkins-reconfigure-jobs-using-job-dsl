@@ -1,0 +1,5 @@
+vendor
+.vagrant
+vendor
+librarian_roles/
+vagrantbox/roles/Azulinho.azulinho-google-dns/
