@@ -1,4 +1,4 @@
-This repo contains ansible code to ...
+This repo contains ansible code to deploy jobs in jenkins using the DSL
 
 When cloning from github, simply run:
 
@@ -6,4 +6,4 @@ When cloning from github, simply run:
 
 When using galaxy, simply run:
 
-    ansible-galaxy install Azulinho.azulinho-...
+    ansible-galaxy install Azulinho.azulinho-jenkins-reconfigure-jobs-using-job-dsl
